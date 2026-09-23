@@ -1,0 +1,11 @@
+#include <stdio.h> 
+int main() 
+{ 
+int a , b , division ;
+printf("Enter your first number :");
+scanf("%d",&a);
+printf("Enter your second number :");
+scanf("%d",&b); 
+division = a/b;
+printf("division = %d",division);
+}
