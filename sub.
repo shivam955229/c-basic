@@ -1,0 +1,11 @@
+#include <stdio.h> 
+int main() 
+{ 
+   int a , b , substraction; 
+   printf("Enter your firts number :"); 
+    scanf("%d", &a);
+    printf("Enter your second number:"); 
+   scanf("%d", &b);
+    substraction = a-b; 
+     printf("substraction = %d", substraction );
+}
