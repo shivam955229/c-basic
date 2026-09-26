@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int P,C,E,total;
+    printf("Enter  componnts par cycle =");
+    scanf("%d",&P);
+    printf("enter your complete cycls =");
+    scanf("%d",&C);
+    printf("additional components produced =");
+    scanf("%d",&E);
+    total=(P*C)+E;
+    printf("total number of component poduce = %d",total);
+    return 0;
+}
