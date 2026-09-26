@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int S, I, finalSpeed;
+
+    printf("Enter initial motor speed: ");
+    scanf("%d", &S);
+
+    printf("Enter speed increase: ");
+    scanf("%d", &I);
+
+    finalSpeed = S + I;
+
+    printf("Speed increase = %d RPM\n", I);
+    printf("Final motor speed = %d RPM\n", finalSpeed);
+
+    return 0;
+}
