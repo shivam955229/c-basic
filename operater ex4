@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int B, C, newBattery;
+
+    printf("Enter current battery percentage: ");
+    scanf("%d", &B);
+
+    printf("Enter charging percentage: ");
+    scanf("%d", &C);
+
+    newBattery = B + C;
+
+    printf("New battery percentage = %d%\n", newBattery);
+
+    return 0;
+}
