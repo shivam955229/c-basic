@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    float V, I, power;
+
+    printf("Enter voltage (V): ");
+    scanf("%f", &V);
+
+    printf("Enter current (A): ");
+    scanf("%f", &I);
+
+    power = V * I;
+
+    printf("Motor power = %.2f Watts\n", power);
+
+    return 0;
+}
