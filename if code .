@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int level;
+
+    printf("Enter tank level: ");
+    scanf("%d", &level);
+
+    if (level > 90)
+    {
+        printf("Tank Almost Full");
+    }
+
+    return 0;
+}
