@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{ 
+    int temperature;
+    printf("Enter your temperature=");
+    scanf("%d",&temperature);
+     if (temperature>30)
+     {
+         printf("temperature is high");
+     }
+    else 
+     {
+         printf("temperature is low");
+     }
+    return 0;
+}
