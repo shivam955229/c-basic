@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() 
+{
+   int passengerage, child=18, adult=30, senior=50;
+    printf("passenger age");
+    scanf("%d",&passengerage);
+    if (passengerage <= child)
+    {
+        printf("passenger status: child");
+    }
+    else if (passengerage<= adult && passengerage> child)
+        {
+            printf("passenger status: adult");
+        }
+    else 
+        {
+            printf("passenger status: senior");
+        }
+    
+
+}
