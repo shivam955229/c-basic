@@ -1,0 +1,17 @@
+# include <stdio.h>
+
+int main()
+{
+    float distance ;
+    printf("Enter your robot distance: ");
+    scanf("%f",&distance);
+    if (distance < 20)
+    {
+        printf("stop robot");
+    }
+    else 
+    {
+        printf("move forward");
+    }
+    return 0;
+}
