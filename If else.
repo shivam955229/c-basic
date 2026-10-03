@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    float temperature;
+
+    printf("Enter machine temperature: ");
+    scanf("%f", &temperature);
+
+    if (temperature <= 80)
+    {
+        printf("Machine Status: Normal");
+    }
+    else
+    {
+        printf("Machine Status: Fault");
+    }
+
+    return 0;
+}
