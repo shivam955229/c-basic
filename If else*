@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+    float temperature, current;
+
+    printf("Enter motor temperature: ");
+    scanf("%f", &temperature);
+
+    printf("Enter motor current: ");
+    scanf("%f", &current);
+
+    if (temperature > 80)
+    {
+        printf("Motor Status: Overheated - Motor Stopped");
+    }
+    else if (current > 15)
+    {
+        printf("Motor Status: Overcurrent - Motor Stopped");
+    }
+    else if (temperature <= 60 && current <= 10)
+    {
+        printf("Motor Status: Running Normally");
+    }
+    else
+    {
+        printf("Motor Status: Warning");
+    }
+
+    return 0;
+}
