@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    float speed, safe=60, slow=100;
+    printf("inter your speed:");
+    scanf("%F",&speed);
+    if (speed<=safe)
+    {
+        printf("your speed is safe");
+    }
+    else if (speed<=slow && speed>safe)
+    {
+        printf("your speed is slow down");
+    }
+    else 
+    {
+        printf("your speed is over");
+    }
+}
