@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int i, period=10, cycle=5;
+    for (i=0; i<10; i++)
+        if(i<cycle)
+        {
+            printf("1");
+        }
+    else
+        {
+          printf("0");
+        }
+}
