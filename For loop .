@@ -1,0 +1,7 @@
+Student 1 (1=Present, 0=Absent): 1
+Student 2 (1=Present, 0=Absent): 1
+Student 3 (1=Present, 0=Absent): 0
+...
+Student 30 (1=Present, 0=Absent): 1
+
+Total Present Students = 25
